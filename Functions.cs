@@ -55,7 +55,7 @@ namespace BloodHunt
                                     float FMinimalViewInfo_FOV2 = Memory.ZwReadFloat(Program.processHandle, (IntPtr)(Program.APlayerCameraManager.ToInt64() + Offsets.UE.APlayerCameraManager.CameraCachePrivate) + 0x0018);
                                     Program.RadFOV = (Program.wndSize.Y * 0.5f) / tanf(Deg2Rad(FMinimalViewInfo_FOV2 * 0.5f));
                                     
-                                    Console.WriteLine(Program.FMinimalViewInfo_Rotation);
+                                    //Console.WriteLine(Program.FMinimalViewInfo_Rotation);
 
                                 }
                             }
