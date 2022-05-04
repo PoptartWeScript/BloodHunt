@@ -224,12 +224,12 @@ namespace BloodHunt
                         {
                             if (GWorldPtr == IntPtr.Zero)
                             {
-                                GWorldPtr = Memory.ZwReadPointer(processHandle, GameBase + 0x5741680, isWow64Process);
+                                GWorldPtr = Memory.ZwReadPointer(processHandle, GameBase + 0x573F680, isWow64Process);
                             }
 
                             if (GNamesPtr == IntPtr.Zero)
                             {
-                                GNamesPtr = GameBase + 0x55F9FC0;
+                                GNamesPtr = GameBase + 0x55F7FC0;
                             }
                         }
                     }
