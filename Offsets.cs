@@ -1,5 +1,5 @@
 using System;
-namespace Boundary
+namespace BloodHunt
 {
 
 public class Offsets
