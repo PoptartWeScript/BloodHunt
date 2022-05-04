@@ -1,12 +1,12 @@
 using System;
-namespace BloodHunt
+namespace Boundary
 {
 
 public class Offsets
 
 {
-   public static Int64 UWorld = 0x5741680;
-   public static Int64 GNames = 0x55F9FC0;
+   public const Int32 UWorld = 0x573F680;
+   public const Int32 GNames = 0x55F7FC0;
 
 public class UE
 {
@@ -35,7 +35,7 @@ public class UE
 
    public class APlayerController
 {
-       public static Int64 AcknowledgedPawn = 0x2A0;
+       public static Int64 AcknowledgedPawn = 0x2A8;
        public static Int64 PlayerCameraManager = 0x2C0;
 }
 
@@ -47,14 +47,9 @@ public class UE
 {
        public static Int64 USceneComponent = 0x138;
        public static Int64 tempVec= 0x11C;
-       public static Int64 Health = 0x698;
-       public static Int64 CurrentActorHPMax = 0x58c;
-       public static Int64 actor_pawn = 0x120;
-       public static Int64 bKickbackEnableds = 0xB18;
-       public static Int64 LAKSTeamState = 0x3A8;
-       public static Int64 LTeamNum = 0x220;
-       public static Int64 AKSTeamState = 0x3A8;
-       public static Int64 TeamNum = 0x220;
+       public static Int64 Health= 0x698;
+       public static Int64 CurrentActorHPMax= 0x58C;
+       public static Int64 actor_pawn= 0x120;
 }
 
    public class APlayerCameraManager
